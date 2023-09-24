@@ -164,7 +164,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'docs',
             position: 'left',
-            label: 'Docs',
+            label: 'Аптечка IFAK',
           },
           // { to: '/blog', label: 'Blog', position: 'left' },
           // {
@@ -178,15 +178,23 @@ const config = {
         // style: 'dark',
         links: [
           {
-            title: 'Аптечка',
+            title: 'Аптечка IFAK',
             items: [
               {
                 label: 'Турнікет',
-                to: '/docs/intro',
+                to: '/docs/tourniquet/',
               },
               {
-                label: 'Оклюзійка',
-                to: '/docs/intro',
+                label: 'Бандаж',
+                to: '/docs/bandage/',
+              },
+              {
+                label: 'Гемостатичний бинт',
+                to: '/docs/hemostaticBandage/',
+              },
+              {
+                label: 'Бинт для тампонади',
+                to: '/docs/tamponadeBandage/',
               },
             ],
           },

@@ -15,24 +15,41 @@
 const sidebars = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   docs: [
-    'introduction',
+    {
+      type: 'doc',
+      id: 'introduction',
+      label: 'Аптечка IFAK', // sidebar label
+    },
     {
       type: 'category',
-      label: 'Турнікети',
+      label: 'Турнікет',
       link: {
         type: 'doc',
-        id: 'tourniquets/index',
+        id: 'tourniquet/index',
       },
       items: [
-        'tourniquets/CAT7',
-        'tourniquets/SICH',
+        'tourniquet/CAT7',
+        'tourniquet/SICH',
       ],
-      // items: [
-      //   // {
-      //   //   type: 'doc',
-      //   //   id: 'doc1',
-      //   // },
-      // ],
+    },
+    {
+      type: 'category',
+      label: 'Бандаж',
+      link: {
+        type: 'doc',
+        id: 'bandage/index',
+      },
+      items: [
+        'bandage/SICH',
+      ],
+    },
+    {
+      type: 'doc',
+      id: 'hemostaticBandage/index',
+    },
+    {
+      type: 'doc',
+      id: 'tamponadeBandage/index',
     },
     // {
     //   type: 'category',
