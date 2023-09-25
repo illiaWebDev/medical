@@ -196,46 +196,52 @@ const config = {
                 label: 'Бинт для тампонади',
                 to: '/docs/tamponadeBandage/',
               },
+              {
+                label: 'Назофарингіальна трубка',
+                to: '/docs/nasalAirway/',
+              },
+              {
+                label: "Оклюзійна пов'язка",
+                to: '/docs/chestSeal/',
+              },
+              {
+                label: 'Декомпресійна голка',
+                to: '/docs/decompressionNeedle/',
+              },
+              {
+                label: "Протиопікова пов'язка",
+                to: '/docs/burnDressingCravat/',
+              },
+              {
+                label: 'Пластир у рулоні',
+                to: '/docs/bandAid/',
+              },
+              {
+                label: 'Ножиці парамедика',
+                to: '/docs/scissors/',
+              },
+              {
+                label: 'Маркер перманентний',
+                to: '/docs/permanentMarker/',
+              },
+              {
+                label: 'Одноразові рукавички парамедика',
+                to: '/docs/gloves/',
+              },
+              {
+                label: 'Хімічне джерело світла',
+                to: '/docs/chemLightSource/',
+              },
+              {
+                label: 'Покривало рятувальне',
+                to: '/docs/thermalBlanket/',
+              },
+              {
+                label: 'Картка пораненого',
+                to: '/docs/medicalCard/',
+              },
             ],
           },
-          // {
-          //   label: 'Tutorial',
-          //   to: '/docs/intro',
-          // },
-          // {
-          //   label: 'Tutorial',
-          //   to: '/docs/intro',
-          // },
-          // {
-          //   title: 'Community',
-          //   items: [
-          //     {
-          //       label: 'Stack Overflow',
-          //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-          //     },
-          //     {
-          //       label: 'Discord',
-          //       href: 'https://discordapp.com/invite/docusaurus',
-          //     },
-          //     {
-          //       label: 'Twitter',
-          //       href: 'https://twitter.com/docusaurus',
-          //     },
-          //   ],
-          // },
-          // {
-          //   title: 'More',
-          //   items: [
-          //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
-          //     },
-          //   ],
-          // },
         ],
         // copyright: `Copyright © ${ new Date().getFullYear() } My Project, Inc. Built with Docusaurus.`,
       },

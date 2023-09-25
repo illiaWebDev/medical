@@ -23,28 +23,49 @@ function HomepageHeader() {
         <div className='container'>
           <div className='row'>
             <div className='col col--6'>
-              <div className='col-demo'>6</div>
+              <img src='/img/esmarkh.png' alt='' />
             </div>
             <div className='col col--6'>
-              <div className='col-demo'>6</div>
+              <img src='/img/oldMedpack.png' alt='' />
             </div>
           </div>
         </div>
 
-        <img src='/img/esmarkh.png' alt='' />
-        <img src='/img/oldMedpack.png' alt='' />
-        <img src='/img/broken.jpeg' alt='' />
-        <img src='/img/broken2.jpeg' alt='' />
+        <p>
+          Неякісні та застарілі засоби індивідуального захисту - величезна загроза.
+          Вони дають хибне відчуття безпеки.
+          І в самий критичний момент можуть вартувати найдорожчого.
+        </p>
+
+        <div className='container'>
+          <div className='row'>
+            <div className='col col--6'>
+              <img src='/img/broken.jpeg' alt='' />
+            </div>
+            <div className='col col--6'>
+              <img src='/img/broken2.jpeg' alt='' />
+            </div>
+          </div>
+        </div>
+
+        <p>
+          Та навіть маючи в руках щось, що має виглядає справжнім, необхідно знати
+          як пересвідчитись в якості власного спорядження
+        </p>
+
         <img src='/img/goodVsBad.jpeg' alt='' />
 
-        { /* <h1 className='hero__title'>{ siteConfig.title }</h1> */ }
-        { /* <p className='hero__subtitle'>{ siteConfig.tagline }</p> */ }
+
+        <p>
+          Тому якщо ви хочете максимально убезпечити себе та не довіряти своє життя та здоров&apos;я випадку
+        </p>
+
         <div className={ styles.buttons }>
           <Link
             className='button button--secondary button--lg'
             to='/docs/introduction'
           >
-            Як перевірити себе?
+            Перевірте себе
           </Link>
         </div>
       </div>

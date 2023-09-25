@@ -51,39 +51,47 @@ const sidebars = {
       type: 'doc',
       id: 'tamponadeBandage/index',
     },
-    // {
-    //   type: 'category',
-    //   label: 'Docusaurus',
-    //   items: [
-    //     {
-    //       type: 'doc',
-    //       id: 'doc2',
-    //     },
-    //     {
-    //       type: 'doc',
-    //       id: 'doc3',
-    //     },
-    //   ],
-    // },
-    // {
-    //   type: 'link',
-    //   label: 'Learn more',
-    //   href: 'https://example.com',
-    // },
-  ],
-
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    'intro',
-    'hello',
     {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
+      type: 'doc',
+      id: 'nasalAirway/index',
+    },
+    {
+      type: 'doc',
+      id: 'chestSeal/index',
+    },
+    {
+      type: 'doc',
+      id: 'decompressionNeedle/index',
+    },
+    {
+      type: 'doc',
+      id: 'burnDressingCravat/index',
+    },
+    {
+      type: 'doc',
+      id: 'bandAid/index',
+    },
+    {
+      type: 'doc',
+      id: 'scissors/index',
+    },
+    {
+      type: 'doc',
+      id: 'permanentMarker/index',
+    },
+    {
+      type: 'doc',
+      id: 'gloves/index',
+    },
+    {
+      type: 'doc',
+      id: 'chemLightSource/index',
+    },
+    {
+      type: 'doc',
+      id: 'medicalCard/index',
     },
   ],
-   */
 };
 
 module.exports = sidebars;
